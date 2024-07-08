@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Set up the background */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #d5e1ef;
+  font-family: 'Outfit', sans-serif;
+}
+
+/* Style the card container */
+.card {
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  width: 320px;
+  overflow: hidden;
+  text-align: center;
+}
+
+/* Style the image container */
+.card-image {
+  background-color: #2c7dfa;
+  padding: 15px;
+}
+
+/* Style the image container */
+.card-image img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* Style the card content */
+.card-content {
+  padding: 20px;
+}
+
+/* Style the heading */
+.card-content h1 {
+  font-size: 1.25em;
+  margin-bottom: 10px;
+  color: #1f3251;
+}
+
+/* Style the paragraph */
+.card-content p {
+  font-size: 0.875em;
+  color: #7b879d;
+  line-height: 1.5;
+}
